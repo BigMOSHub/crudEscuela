@@ -17,7 +17,7 @@ public class conexionSQL {
 			JOptionPane.showMessageDialog(null,"Conexion Exitosa");
 
 		}catch (Exception e) {			
-			JOptionPane.showMessageDialog(null,"Error conexion");
+			JOptionPane.showMessageDialog(null,"Error conexion"+ e.getMessage());
 		}
 		return conectar;
 	}
