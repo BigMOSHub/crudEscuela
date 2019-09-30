@@ -2,7 +2,6 @@ package conexionSQL;
 
 import com.mysql.jdbc.Connection;
 import java.sql.DriverManager;
-
 import javax.swing.JOptionPane;
 
 public class conexionSQL {
